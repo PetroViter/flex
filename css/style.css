@@ -172,3 +172,35 @@ body {
     margin-top: 24px;
 }
 
+/*logo company*/
+
+
+.logo-company {
+    background-color: #FF9C7D;
+    margin-top: 181px;      
+}
+
+.h2-company {
+    max-width: 720px;
+    padding-left: 360px;
+    padding-top:108px;
+    
+}
+
+.logo-img {
+    justify-content: space-between;
+    margin-top: 82px;
+    padding-bottom: 104px;
+}
+.h2-company p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;
+    color: #000000;   
+    text-align: center;
+}
+
+
+
