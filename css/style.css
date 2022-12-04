@@ -1,7 +1,174 @@
+@font-face {
+    font-family: 'Graphik LC TT';
+    src: url('../fonts/graphiklcweb_medium-webfont.woff2') format('woff2'),
+         url('../fonts/graphiklcweb_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
 body {
     max-width: 1440px;
+    box-sizing: border-box;
+}
+
+.head {
+    background: #FFFFFF;
+    height: 95px;
+    
 }
 
 .flex {
-    display: flex;
+    display: flex;    
 }
+
+.h-flex {    
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1290px;
+    margin: 0 auto;
+}
+
+.logo {
+    flex-grow: 1;
+    text-align: center;
+}
+
+.head-nav {
+    flex-grow: 2;
+}
+
+.head-enter {
+    flex-grow: 1;
+    box-sizing: border-box;
+}
+
+.head-nav .nav-menu a {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    color: #000000;
+    text-decoration: none;
+    margin-right: 57px;
+}
+
+.head-nav .nav-menu a:hover {
+    text-decoration: underline;
+}
+
+/*button*/
+
+.btn {    
+    border-radius: 0px;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;        
+    cursor: pointer;
+    
+         
+}
+
+.btn.btn-login {
+    background-color: #FFFFFF;
+    color: #000000;
+    border: 1px solid rgba(0, 0, 0, 0.5); 
+    min-width: 120px;
+    line-height: 45px;          
+}
+
+.btn-login:hover {
+    background-color: #FF6336;
+}
+
+.btn.btn-try {
+    background-color: #FF6336;
+    color:#FFFFFF;
+    border: none;
+    min-width: 120px;
+    line-height: 45px; 
+}
+
+.btn-try:hover {
+    background-color: #fd7c58;
+}
+
+.btn.btn-try_main {
+    background-color: #FF6336;
+    color:#FFFFFF;
+    border: none;
+    line-height: 60px;
+    min-width: 160px;
+}
+
+.btn.btn-try_main:hover {
+    background-color: #f87855;
+}
+
+.btn.btn-book {
+    background-color: #FFFFFF;
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    line-height: 60px;
+    min-width: 160px;
+}
+
+.btn.btn-book:hover {
+    background-color: #FF6336;
+}
+
+/*main*/
+
+.flex-m {
+    flex-direction: column;
+        
+}
+
+.main-img {
+    background-image: url('../image/img-main.jpg');
+    color: #FFFFFF;    
+    background-repeat: no-repeat;
+    min-height: 529px;
+    background-position: 81%;
+    margin-top: 151px;
+}
+
+.text-h1 p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 70px;   
+    color: #000000;
+    max-width: 552px;
+    margin-top: -22px;
+}
+
+.writing {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 35px;   
+    color: #000000;
+    max-width: 471px;
+    margin-top: 51px;
+    margin-bottom: 51px;
+    
+}
+
+.btn-change p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #000000;
+    margin-top: 24px;
+}
+
