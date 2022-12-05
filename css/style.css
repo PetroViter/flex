@@ -291,13 +291,92 @@ body {
 
 .text-ensure_block {
     margin-top: 161px;
+    margin-right: 138px;
 }
 
 .text-ensure_block .size20.description p {
     max-width: 520px;
-    margin-right: 138px;
+    
 }
 
+/*Less work for developers*/
+
+.block-less_work {
+    margin-top: 250px;
+}
+
+.text-less_work_block {
+    margin-top: 123px;
+    margin-left: 138px;
+}
+
+.text-less_work_block .size20.description p {
+    max-width: 520px;
+}
+
+/*block cards*/
+
+.flex-cards {
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-bottom: 99px;
+}
+
+.block-cards {
+    margin-top: 150px;
+    background-color: #FFF8E4;
+}
+
+.cards {
+    margin-bottom: 51px;
+}
+
+.h-cards {
+    margin-top: 120px;
+    justify-content: center;
+    margin-bottom: 58px;
+    flex-grow: 1;
+}
+
+.h-cards p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 60px;    
+    text-align: center;
+    color: #000000;
+}
+
+.cards-img {
+    margin-top: 21px;
+    text-align: center;
+}
+.cards-h3 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 35px; 
+    text-align: center;
+    color: #000000;
+    margin-top: 26px;
+}
+
+.cards-text {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;    
+    text-align: center;
+    color: #000000;
+    max-width: 330px;
+    margin-top: 20px;
+    
+}
+
+/*Boost your localization team’s productivity tenfold*/
 
 
 
