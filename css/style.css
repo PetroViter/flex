@@ -283,6 +283,20 @@ body {
     max-width: 450px;
 }
 
+/*Ensure quality*/
+
+.block-ensure {
+    margin-top: 250px;
+}
+
+.text-ensure_block {
+    margin-top: 161px;
+}
+
+.text-ensure_block .size20.description p {
+    max-width: 520px;
+    margin-right: 138px;
+}
 
 
 
