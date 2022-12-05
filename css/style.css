@@ -263,6 +263,27 @@ body {
     text-decoration: underline;
 }
 
+/*Shorten time to market*/
+
+.block-shorten {    
+    color: #FFFFFF;
+    margin-top: 250px;    
+}
+
+.text-shorten_block {
+    margin-left: 138px;
+    margin-top: 151px;
+}
+
+.size50.text-shorten p{
+    max-width: 379px;
+}
+
+.size20.description p {
+    max-width: 450px;
+}
+
+
 
 
 
