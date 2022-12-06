@@ -191,7 +191,6 @@ body {
 
 .logo-img {
     justify-content: space-between;
-    margin-top: 82px;
     padding-bottom: 104px;
 }
 .size50 p {
@@ -205,10 +204,10 @@ body {
 
 .size50.company p {
     text-align: center;
-    max-width: 720px;
-    padding-left: 360px;
-    padding-top:108px;
+    padding: 108px 230px 82px 360px;    
 }
+
+
 
 
 
@@ -218,16 +217,13 @@ body {
     flex-direction: column;
 }
 
-.block-control {
-    background-image: url('../image/ProjectApp.jpg');
+.block-control {    
     color: #FFFFFF;    
-    background-repeat: no-repeat;   
-    background-position: 91% 0%;
     margin-top: 90px;
 }
 
 .size50.text-control p {
-    max-width: 493px;
+    padding-right: 165px;
     padding-top: 151px;
 }
 
@@ -240,9 +236,11 @@ body {
     color: #000000;
 }
 
+.text-control_block .size20.description p {
+    margin-right: 165px;
+}
 .size20.description p {
-    max-width: 491px;
-    margin-top: 30px;
+    margin-top: 30px;   
 }
 
 .start-now {
@@ -277,12 +275,12 @@ body {
     margin-top: 151px;
 }
 
-.size50.text-shorten p{
-    max-width: 379px;
+.text-shorten_block .size20.description p {
+    padding-right: 70px;
 }
 
-.size20.description p {
-    max-width: 450px;
+.size50.text-shorten p{
+    max-width: 379px;
 }
 
 /*Ensure quality*/
@@ -293,11 +291,11 @@ body {
 
 .text-ensure_block {
     margin-top: 161px;
-    margin-right: 138px;
+    
 }
 
 .text-ensure_block .size20.description p {
-    max-width: 520px;
+    padding-right: 135px;
     
 }
 
@@ -313,7 +311,7 @@ body {
 }
 
 .text-less_work_block .size20.description p {
-    max-width: 520px;
+    padding-right: 0;
 }
 
 /*block cards*/
@@ -435,4 +433,8 @@ body {
     line-height: 30px;
     color: #000000;
 }
+
+/*quote*/
+
+
 
