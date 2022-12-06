@@ -436,5 +436,40 @@ body {
 
 /*quote*/
 
+.quote-block {
+    background: #C9E8F2;
+    margin-top: 187px;
+}
 
+.quote {
+    flex-grow: 2; 
+}
 
+.autor-foto {
+    flex-grow: 1;
+    padding-top: 53px;
+    padding-bottom: 105px;
+}
+
+.quote-text p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 40px;   
+    color: #000000;
+    flex-grow: 2;
+    padding-right: 94px;
+    padding-top: 63px;
+}
+
+.quote-autor p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;    
+    color: #000000;
+    padding-top: 23px;
+    padding-bottom: 13px;
+}
