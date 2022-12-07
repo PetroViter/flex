@@ -561,3 +561,193 @@ body {
     margin-top: 25px;    
 }
 
+
+/*easy*/
+
+.easy-flex {
+    flex-direction: column;
+    align-items: center;
+}
+
+.easy-block {
+    background: #FF9C7D;
+}
+
+.easy-h2 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 65px;
+    line-height: 75px;
+    text-align: center;
+    color: #000000;
+    padding: 110px 253px 0px 253px;
+}
+
+.easy-text {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    text-align: center;
+    color: #000000;
+    margin-top: 29px;
+}
+
+.btn-easy {
+    background: #000000;
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 60px;    
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0px;
+    min-width: 160px;
+    margin-top: 54px;
+    margin-bottom: 161px;
+}
+
+.btn-easy:hover {
+    background: #535353;
+}
+
+/*footer*/
+
+.block-case {
+    justify-content: space-between;
+}
+
+.case-col {
+    flex-direction: column;
+    flex: 0 0 30%;
+}
+
+.all-coll2 {
+    flex: 0 0 58%;
+    
+}
+
+.case-content {
+    margin-top: 97px;
+}
+
+.case-img {
+    border: 1px solid #000000;
+    border-radius: 0px;
+}
+
+.case-logo {
+    margin-top: 31px;
+}
+
+.case-h2 {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 40px;
+    line-height: 50px;   
+    color: #000000;
+    margin-bottom: 28px ;
+}
+
+.case-text {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;    
+    color: #000000;
+    margin-top: 11px;
+    padding-right: 80px;
+}
+
+
+.case-read {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;    
+    color: #000000;
+    margin-top: 15px;
+}
+
+.case-read a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.case-read a:hover {
+    text-decoration: underline;
+}
+
+.case-col2 {
+    flex: 1 0 25%;
+}
+
+.case-col2 p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;  
+    color: #000000;
+    margin-bottom: 21px;
+}
+
+.case-col2 ul li {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 15px;   
+    margin-bottom: 15px;    
+}
+
+.case-col2 ul li a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+.case-col2 ul li a:hover {
+    text-decoration: underline;
+}
+
+.divider {
+    border-top: 3px solid black;
+    margin-top: 95px;
+}
+
+.info-block {
+    margin-top: 47px;
+    margin-bottom: 43px;
+    justify-content: space-between;
+}
+
+.name-text p {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;   
+    color: #000000;
+    margin-left: 14px;
+}
+
+.info-name {
+    flex: 0 0 30%;
+}
+
+.rights {
+    font-family: 'Graphik LC TT';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;   
+    color: #000000;
+    flex: 0 0 10%;
+}
