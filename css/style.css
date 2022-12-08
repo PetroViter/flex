@@ -7,18 +7,12 @@
 
 }
 
-
-
-
-body {
-    max-width: 1440px;
+* {
     box-sizing: border-box;
 }
 
 .head {
-    background: #FFFFFF;
-    height: 95px;
-    
+    background: #FFFFFF;    
 }
 
 .flex {
@@ -319,20 +313,20 @@ body {
 .flex-cards {
     flex-wrap: wrap;
     justify-content: space-around; 
-    margin-bottom: 99px;
 }
 
 .block-cards {
     margin-top: 150px;
     background-color: #FFF8E4;
+    padding-top: 120px;
+    padding-bottom: 147px;    
 }
 
 .cards {
     margin-bottom: 51px;
 }
 
-.h-cards {
-    margin-top: 120px;
+.h-cards {    
     justify-content: center;
     margin-bottom: 58px;
     flex-grow: 1;
@@ -501,7 +495,8 @@ body {
     line-height: 50px;   
     color: #000000;
     padding-left: 67px;
-    box-shadow: inset -1px 0 0 black;       
+    border-right: #000000 2px solid;
+    /*box-shadow: inset -1px 0 0 black;*/       
     flex: 0 0 42%;
     margin-right: 70px;
     padding-top: 22px;
