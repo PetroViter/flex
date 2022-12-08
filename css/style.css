@@ -176,12 +176,6 @@
     margin-top: 181px;      
 }
 
-.h2-company {
-    max-width: 720px;
-    padding-left: 360px;
-    padding-top:108px;
-    
-}
 
 .logo-img {
     justify-content: space-between;
@@ -197,18 +191,28 @@
 }
 
 .size50.company p {
-    text-align: center;
-    padding: 108px 230px 82px 360px;    
+    max-width: 720px;     
+}
+
+.size50.company {
+    justify-content: center;
+    padding-top: 108px;
+    padding-bottom: 82px;
 }
 
 
 
-
-
 /*Control the localization process*/
+.flex2block {
+    align-items: center;
+}
 
-.flex-control {
-    flex-direction: column;
+.text-control_block {
+    flex: 0 0 50%;
+}
+
+.project-img {
+    flex: 0 0 50%;
 }
 
 .block-control {    
@@ -217,8 +221,8 @@
 }
 
 .size50.text-control p {
-    padding-right: 165px;
-    padding-top: 151px;
+    max-width: 493px;
+    
 }
 
 .size20 p {
@@ -231,7 +235,8 @@
 }
 
 .text-control_block .size20.description p {
-    margin-right: 165px;
+    max-width: 491px;
+    
 }
 .size20.description p {
     margin-top: 30px;   
@@ -244,7 +249,7 @@
     font-size: 20px;
     line-height: 30px;    
     margin-top: 30px;
-    padding-bottom: 109px;
+    /*padding-bottom: 109px;*/
     
 }
 
