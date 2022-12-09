@@ -170,18 +170,11 @@
 
 /*logo company*/
 
-
 .logo-company {
     background-color: #FF9C7D;
     margin-top: 181px;      
 }
 
-.h2-company {
-    max-width: 720px;
-    padding-left: 360px;
-    padding-top:108px;
-    
-}
 
 .logo-img {
     justify-content: space-between;
@@ -197,8 +190,13 @@
 }
 
 .size50.company p {
-    text-align: center;
-    padding: 108px 230px 82px 360px;    
+    max-width: 720px;     
+}
+
+.size50.company {
+    justify-content: center;
+    padding-top: 108px;
+    padding-bottom: 82px;
 }
 
 
@@ -207,8 +205,16 @@
 
 /*Control the localization process*/
 
-.flex-control {
-    flex-direction: column;
+.flex_a-c {
+    align-items: center;
+}
+
+.block_left {
+    flex: 0 0 50%;
+}
+
+.block_right {
+    flex: 0 0 50%;    
 }
 
 .block-control {    
@@ -217,8 +223,8 @@
 }
 
 .size50.text-control p {
-    padding-right: 165px;
-    padding-top: 151px;
+    max-width: 493px;
+    
 }
 
 .size20 p {
@@ -230,8 +236,9 @@
     color: #000000;
 }
 
-.text-control_block .size20.description p {
-    margin-right: 165px;
+.block-control .size20.description p {
+    max-width: 491px;
+    
 }
 .size20.description p {
     margin-top: 30px;   
@@ -244,7 +251,7 @@
     font-size: 20px;
     line-height: 30px;    
     margin-top: 30px;
-    padding-bottom: 109px;
+    /*padding-bottom: 109px;*/
     
 }
 
@@ -264,18 +271,12 @@
     margin-top: 250px;    
 }
 
-.text-shorten_block {
-    margin-left: 138px;
-    margin-top: 151px;
+.block-shorten .block_right {
+    max-width: 450px;    
+    margin: 0 auto;
 }
 
-.text-shorten_block .size20.description p {
-    padding-right: 70px;
-}
 
-.size50.text-shorten p{
-    max-width: 379px;
-}
 
 /*Ensure quality*/
 
@@ -283,13 +284,9 @@
     margin-top: 250px;
 }
 
-.text-ensure_block {
-    margin-top: 161px;
-    
-}
 
-.text-ensure_block .size20.description p {
-    padding-right: 135px;
+.block-ensure .size20.description p {
+    max-width: 520px; 
     
 }
 
@@ -299,13 +296,9 @@
     margin-top: 250px;
 }
 
-.text-less_work_block {
-    margin-top: 123px;
-    margin-left: 138px;
-}
-
-.text-less_work_block .size20.description p {
-    padding-right: 0;
+.block-less_work .block_right {
+    max-width: 450px;    
+    margin: 0 auto;
 }
 
 /*block cards*/
