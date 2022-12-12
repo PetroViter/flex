@@ -11,6 +11,11 @@
     box-sizing: border-box;
 }
 
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
 .head {
     background: #FFFFFF;    
 }
@@ -30,17 +35,20 @@
 }
 
 .logo {
-    flex-grow: 1;
-    text-align: center;
+    flex-grow: 1;    
+    max-width: 130px;
+    max-height: 28px;
+    margin-right: 51px;
 }
 
+
 .head-nav {
-    flex-grow: 2;
+    flex-grow: 60;
+    justify-content: space-between;
 }
 
 .head-enter {
-    flex-grow: 1;
-    box-sizing: border-box;
+    flex-grow: 1;   
 }
 
 .head-nav .nav-menu a {
@@ -122,15 +130,18 @@
 
 .flex-m {
     flex-direction: column;
-        
+    justify-content: space-around;        
 }
 
-.main-img {
-    background-image: url('../image/img-main.jpg');
-    color: #FFFFFF;    
+.main-img {    
+    color: #FFFFFF; 
+}
+
+.bg-img {
+    background-image: url('../image/img-main.jpg');       
     background-repeat: no-repeat;
-    min-height: 529px;
-    background-position: 81%;
+    max-height: 529px;    
+    background-position: 100%;
     margin-top: 151px;
 }
 
@@ -199,6 +210,35 @@
     padding-bottom: 82px;
 }
 
+.logo-specialized {
+    max-width: 138px;
+    max-height: 53px;
+}
+
+.logo-virgin {
+    max-width: 72px;
+    max-height: 53px;
+}
+
+.logo-tidal {
+    max-width: 150px;
+    max-height: 21px;
+}
+
+.logo-revolut {
+    max-width: 112px;
+    max-height: 25px;
+}
+
+.logo-yelp {
+    max-width: 107px;
+    max-height: 53px;
+}
+
+.logo-daimler {
+    max-width: 150px;
+    max-height: 19px;
+}
 
 
 
@@ -264,6 +304,10 @@
     text-decoration: underline;
 }
 
+.block-img {
+    max-width: 632px;
+    max-height: 632px;
+}
 /*Shorten time to market*/
 
 .block-shorten {    
@@ -315,6 +359,10 @@
     padding-bottom: 147px;    
 }
 
+.flex-c {
+    flex-direction: column;    
+}
+
 .cards {
     margin-bottom: 51px;
 }
@@ -338,6 +386,9 @@
 .cards-img {
     margin-top: 21px;
     text-align: center;
+    max-width: 160px;
+    max-height: 120px;
+    align-self: center;
 }
 .cards-h3 {
     font-family: 'Graphik LC TT';
@@ -379,6 +430,21 @@
     display: flex;
     align-items: center;
     
+}
+
+.managers-img_size {
+    max-width: 145px;
+    max-height: 201px;
+}
+
+.developers-img_size {
+    max-width: 179px;
+    max-height: 166px;
+}
+
+.translators-img_size {
+    max-width: 179px;
+    max-height: 183px;
 }
 
 .boots-h2 {
@@ -429,13 +495,15 @@
 }
 
 .quote {
-    flex-grow: 2; 
+    flex: 0 0 76%;    
 }
 
 .autor-foto {
-    flex-grow: 1;
-    padding-top: 53px;
-    padding-bottom: 105px;
+    flex: 0 0 24%;
+    max-width: 310px;
+    max-height: 310px;
+    margin-top: 63px;   
+    margin-bottom: 105px; 
 }
 
 .quote-text p {
@@ -480,6 +548,11 @@
     margin-left: -21px;
 }
 
+.img-cake {
+    max-width: 176px;
+    max-height: 154px;
+}
+
 .adv-text {
     font-family: 'Graphik LC TT';
     font-style: normal;
@@ -498,6 +571,16 @@
 
 .img_adv {
     flex: 1 0 15%;    
+}
+
+.img_adv-users {
+    max-width: 128px;
+    max-height: 116px;
+}
+
+.img_adv-capterra {
+    max-width: 150px;
+    max-height: 116px;
 }
 
 /*integrate*/
@@ -528,13 +611,14 @@
     line-height: 30px;    
     text-align: center;
     color: #000000;
-    padding-left: 243px;
-    padding-right:243px;
+    max-width: 539px;
     margin-top: 4px;
 }
 
 .integrate-img {
     margin-top: 25px;
+    max-width: 1023px;
+    max-height: 445px;
 }
 
 .btn-intagrate {    
@@ -631,6 +715,8 @@
 
 .case-logo {
     margin-top: 31px;
+    max-width: 80px;
+    min-height: 32px;
 }
 
 .case-h2 {
